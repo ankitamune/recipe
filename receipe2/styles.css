@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recipe-card {
+    width: calc(25% - 20px); /* 4 cards per row with some spacing */
+    margin: 10px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+.recipe-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: courage;
+}
+.search-input{
+    width: 500px;
+}
+.search-heading{
+    font-family: 'Courgette', 'cursive';
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.28571em;
+
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    line-height: 1.28571em;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+    font-weight: 700;
+    margin: calc(2rem - 0.14286em) 0px 1rem;
+}
+
+#search-input{
+    width: 500px;
+    padding: 5px;
+}
+#search-button{
+    margin-left: -5px;
+    margin-top: -4px;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.recipe-card img {
+    max-width: 100%;
+}
+
+.recipe-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.recipe-details h2 {
+    text-align: center;
+}
+
+.recipe-details button {
+    display: block;
+    margin: 10px auto;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+h2{
+    font-size: smaller;
+}
+p{
+    color: #b69811;
+    font-family: 'Courgette','cursive';
+}
+
+.details{
+    background-color: #2185D0;
+    width: 90px;
+    border: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+
+    border-radius: 5px;
+    margin: 5px;
+}
+.url-recipe{
+    background-color: #21BA45;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+}
+/* Add your CSS styles here */
+/* Add your CSS styles here */
+.navbar {
+    /* background-color: #333; */
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: 40px; /* Adjust the height as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: auto; /* Pushes "Home" and "Recipes" links to the left */
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    margin-top: 50px;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff5733; /* Change the color on hover */
+}
